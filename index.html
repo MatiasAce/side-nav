@@ -21,69 +21,69 @@
                 <li>
                     <i class='bx bx-search'></i>
                     <input type="text" placeholder="Buscar...">
-                    <!--<span class="toolTip">Dashboard</span>-->
+                    <span class="toolTip">Buscar</span>
                 </li>
                 <li>
                     <a href="#">
                         <i class='bx bx-grid-alt' ></i>
                         <span class="linksName">Dashboard</span>
                     </a>
-                    <!--<span class="toolTip">Dashboard</span>-->
+                    <span class="toolTip">Dashboard</span>
                 </li>
                 <li>
                     <a href="#">
                         <i class='bx bx-user' ></i>
                         <span class="linksName">User</span>
                     </a>
-                    <!--<span class="toolTip">Dashboard</span>-->
+                    <span class="toolTip">User</span>
                 </li>
                 <li>
                     <a href="#">
                         <i class='bx bx-chat' ></i>
                         <span class="linksName">Messages</span>
                     </a>
-                    <!--<span class="toolTip">Dashboard</span>-->
+                    <span class="toolTip">Messages</span>
                 </li>
                 <li>
                     <a href="#">
                         <i class='bx bx-pie-chart-alt' ></i>
                         <span class="linksName">Analytics</span>
                     </a>
-                    <!--<span class="toolTip">Dashboard</span>-->
+                    <span class="toolTip">Analytics</span>
                 </li>
                 <li>
                     <a href="#">
                         <i class='bx bx-folder' ></i>
                         <span class="linksName">File Manager</span>
                     </a>
-                    <!--<span class="toolTip">Dashboard</span>-->
+                    <span class="toolTip">File Manager</span>
                 </li>
                 <li>
                     <a href="#">
                         <i class='bx bx-cart'></i>
                         <span class="linksName">Order</span>
                     </a>
-                    <!--<span class="toolTip">Dashboard</span>-->
+                    <span class="toolTip">Order</span>
                 </li>
                 <li>
                     <a href="#">
                         <i class='bx bx-heart' ></i>
                         <span class="linksName">Saved</span>
                     </a>
-                    <!--<span class="toolTip">Dashboard</span>-->
+                    <span class="toolTip">Saved</span>
                 </li>
                 <li>
                     <a href="#">
                         <i class='bx bx-cog' ></i>
                         <span class="linksName">Setting</span>
                     </a>
-                    <!--<span class="toolTip">Dashboard</span>-->
+                    <span class="toolTip">Setting</span>
                 </li>
             </ul>
             <div class="profileContent">
                 <div class="profile">
                     <div class="profileDetails">
-                        <!--<img src="https://st.depositphotos.com/2101611/3925/v/600/depositphotos_39258143-stock-illustration-businessman-avatar-profile-picture.jpg" alt="">-->
+                        <img src="https://st.depositphotos.com/2101611/3925/v/600/depositphotos_39258143-stock-illustration-businessman-avatar-profile-picture.jpg" alt="">
                         <div class="nameJob">
                             <div class="name">Juanito Arcoiris</div>
                             <div class="job">Web Designer</div>
@@ -94,5 +94,20 @@
             </div>
         </div>
     </div>
+    <div class="homeContent">
+        <div class="text">Home Content</div>
+    </div>
+    <script>
+        let btn = document.querySelector("#btn");
+        let sidebar = document.querySelector(".sidebar");
+        let searchbtn = document.querySelector(".bx-search");
+        
+        btn.onclick = function(){
+            sidebar.classList.toggle("active")
+        }
+        searchbtn.onclick = function(){
+            sidebar.classList.toggle("active")
+        }
+    </script>
 </body>
 </html>
